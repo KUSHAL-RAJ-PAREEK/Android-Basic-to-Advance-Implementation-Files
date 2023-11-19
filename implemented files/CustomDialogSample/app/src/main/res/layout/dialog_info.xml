@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="7dp"
+    android:background="#00DBC3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/baseline_cloud_done_24"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtTittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success!"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="file Uploaded Successfully"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="11dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>

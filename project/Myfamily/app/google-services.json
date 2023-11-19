@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "612185042021",
+    "project_id": "myfamily-dca2b",
+    "storage_bucket": "myfamily-dca2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612185042021:android:3d2aab6f33072e3596aa8c",
+        "android_client_info": {
+          "package_name": "com.goodhub.myfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612185042021-69idjjd559628bad4rc6h1mfn80mb1ua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goodhub.myfamily",
+            "certificate_hash": "9f58e9976bfe4cf9c909480151e462a653774add"
+          }
+        },
+        {
+          "client_id": "612185042021-7k4gupr99s22a97fhuvtg0ln0ek7d4hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1uS_gOWhqG2rpnhBa6iAB1xOXfztcQTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612185042021-7k4gupr99s22a97fhuvtg0ln0ek7d4hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

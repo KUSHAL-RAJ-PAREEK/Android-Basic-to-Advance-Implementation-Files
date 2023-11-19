@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawer_opt_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/drawer_opt_gallery"
+        android:title="Gallery"
+        android:icon="@drawable/baseline_image_24"/>
+
+    <item
+        android:id="@+id/drawer_opt_setting"
+        android:title="Settings"
+        android:icon="@drawable/baseline_settings_24"/>
+</menu>

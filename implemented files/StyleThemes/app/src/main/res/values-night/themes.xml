@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StyleThemes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="TextBold">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="TextItalic">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ButtonItalic">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ButtonBold">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="backgroundTint">#D59C48</item>
+    </style>
+
+    <style name="RootView">
+        <item name="android:background">#121106</item>
+    </style>
+</resources>

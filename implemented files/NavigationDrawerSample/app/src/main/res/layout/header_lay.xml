@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp"
+    android:gravity="bottom"
+    android:background="#008EFF"
+    android:layout_height="200dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kunal Upadhyay"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="kunalupadhyay@gmail.com"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="11dp"
+    android:background="#E9E3F4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Contact"
+        android:textStyle="bold"
+        android:id="@+id/txtTitle"
+        android:textSize="24sp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:layout_marginTop="11dp"
+        android:id="@+id/edtName"
+        android:hint="Enter Name"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:layout_marginTop="11dp"
+        android:id="@+id/edtNumber"
+        android:hint="Enter Number"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="11dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:text="Create"
+            android:backgroundTint="#BC86FC"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:id="@+id/btnCancel"
+            android:text="Cancel"
+            android:backgroundTint="#BC86FC"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

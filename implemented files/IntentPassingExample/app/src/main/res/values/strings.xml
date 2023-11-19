@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentPassingExample</string>
+    <string name="str_Edt_Name_Hint">Enter your Name</string>
+</resources>
