@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569097172478",
+    "project_id": "harinoid",
+    "storage_bucket": "harinoid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569097172478:android:cbeadbd7173c6db1ae3caf",
+        "android_client_info": {
+          "package_name": "com.krp.firebaseexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpqpvkkMid9NRdRRxWdSAil5iFUmT9ZTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
