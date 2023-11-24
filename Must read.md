@@ -7,8 +7,6 @@ as we know now ("kotlin-android-extensions") plugin is deprecated in upper proje
 2. now initilize binding in your kotlin activity:-
    the binding code is:-
 
-
-
    private lateinit var binding: ResultProfileBinding
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -16,13 +14,14 @@ override fun onCreate(savedInstanceState: Bundle?) {
     val view = binding.root
     setContentView(view)
 }
-
-
   
 3. now use binding keyword or anyelse which you mention in latinit before viwes.
-   like :- before
+   like :- before:-
+   
            button.setOnClicklistner{}
+
            After binding:-
+   
          binding.button.setOnClicklistner{}
 
    for more information read:-
