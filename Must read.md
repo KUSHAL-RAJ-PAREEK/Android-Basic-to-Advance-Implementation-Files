@@ -17,6 +17,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
  ////////////////////////////////////////////////////
 3. now use binding keyword or anyelse which you mention in latinit before viwes.
    like :- before
+   
            button.setOnClicklistner{}
 
            After binding:-
