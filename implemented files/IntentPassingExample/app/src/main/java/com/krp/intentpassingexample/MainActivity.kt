@@ -17,8 +17,6 @@ class MainActivity : AppCompatActivity() {
         val edtName = findViewById<EditText>(R.id.edtName)
         btnNext.setOnClickListener {
             //Intent Passing
-
-
             val name = edtName.text.toString()
             val iNext = Intent(this,SecondActivity :: class.java)
                 iNext.putExtra("Name",name)

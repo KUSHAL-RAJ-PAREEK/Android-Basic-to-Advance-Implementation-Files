@@ -13,7 +13,7 @@ private lateinit var binding: ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var mp: MediaPlayer
-
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
