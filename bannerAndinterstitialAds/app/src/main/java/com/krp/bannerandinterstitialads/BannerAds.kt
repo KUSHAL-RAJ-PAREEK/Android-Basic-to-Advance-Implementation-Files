@@ -27,7 +27,6 @@ class BannerAds : AppCompatActivity() {
 
         //ad request
         val adRequest = AdRequest.Builder().build()
-
         binding.bannerAd.loadAd(adRequest)
 
         binding.bannerAd.adListener = object : AdListener(){

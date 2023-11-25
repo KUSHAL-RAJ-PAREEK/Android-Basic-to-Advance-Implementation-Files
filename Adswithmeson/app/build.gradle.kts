@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.krp.bannerandinterstitialads"
+    namespace = "com.krp.adswithmeson"
     compileSdk = 34
 buildFeatures{
     viewBinding = true
 }
     defaultConfig {
-        applicationId = "com.krp.bannerandinterstitialads"
+        applicationId = "com.krp.adswithmeson"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -39,17 +39,17 @@ buildFeatures{
 
 dependencies {
 
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.10")
+    implementation("com.google.android.gms:play-services-ads-identifier:18.0.1")
+    implementation("ai.meson:meson-sdk:1.0.0")
+    implementation ("com.meson:m2:1.0.0")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.navigation:navigation-fragment-ktx:2.7.5")
-    implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-    //Mobile Ads SDK
-    implementation("com.google.android.gms:play-services-ads:20.5.0")
-    implementation("com.google.android.gms:play-services-ads:22.5.0")
 }

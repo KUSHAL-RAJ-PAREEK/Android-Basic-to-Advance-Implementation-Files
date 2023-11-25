@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">bannerAndinterstitialAds</string>
+    // App ID
     <string name="appID">ca-app-pub-8090565016080889~7255550788</string>
+    //AD IDs
     <string name="bannerAdUnitID">ca-app-pub-8090565016080889/9805638604</string>
     <string name="interAdUnitID">ca-app-pub-8090565016080889/1543186966</string>
+    <string name="NativeAdUnitID">ca-app-pub-8090565016080889/6062668862</string>
+
+
+
     <string name="title_activity_banner_ads">bannerAds</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
