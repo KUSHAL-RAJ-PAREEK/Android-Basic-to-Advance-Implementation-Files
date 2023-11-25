@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">bannerAndinterstitialAds</string>
     // App ID
-    <string name="appID">ca-app-pub-8090565016080889~7255550788</string>
+    <string name="appID">ca-app-pub-3940256099942544~3347511713</string>
     //AD IDs
-    <string name="bannerAdUnitID">ca-app-pub-8090565016080889/9805638604</string>
-    <string name="interAdUnitID">ca-app-pub-8090565016080889/1543186966</string>
-    <string name="NativeAdUnitID">ca-app-pub-8090565016080889/6062668862</string>
+    <string name="bannerAdUnitID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interAdUnitID">ca-app-pub-3940256099942544/1033173712</string>
 
+    <string name="small_medium_native_ads">ca-app-pub-3940256099942544/2247696110</string>
 
 
     <string name="title_activity_banner_ads">bannerAds</string>

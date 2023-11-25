@@ -50,6 +50,5 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     //Mobile Ads SDK
-    implementation("com.google.android.gms:play-services-ads:20.5.0")
     implementation("com.google.android.gms:play-services-ads:22.5.0")
 }
